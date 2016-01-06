@@ -1,7 +1,8 @@
 html, body {
   height: 100%;
-  
+  font-family: 'Quicksand', sans-serif;
 }
+
 body {
   left: 0;
   margin: 0;
@@ -28,21 +29,21 @@ body {
 }
 
 .title {
-  font-weight: bold;
+  //font-weight: bold;
   position: inline;
   color: #fff;
-  font-size: 50px;
+  font-size: 64px;
   padding-left: 40%;
-  font-family: Century Gothic, sans-serif;
+  //font-family: Century Gothic, sans-serif;
 }
 
 .tagline {
-  font-weight: bold;
+  //font-weight: bold;
   position: block;
   color: #fff;
   font-size: 24px;
   padding-left: 47%;
-  font-family: Century Gothic, sans-serif;
+  //font-family: Century Gothic, sans-serif;
 }
 
 .menu ul {
@@ -54,12 +55,12 @@ body {
 
 .menu li {
   border-bottom: 1px solid #636366;
-  font-family: Century Gothic, sans-serif;
+  //font-family: Century Gothic, sans-serif;
   line-height: 45px;
   padding-bottom: 3px;
   padding-left: 20px;
   padding-top: 3px;
-  font-weight: bold;
+  //font-weight: bold;
 }
 
 .menu a {
@@ -79,7 +80,7 @@ body {
 .icon-menu {
   color: #fff;
   cursor: pointer;
-  font-family: Century Gothic, sans-serif;
+  //font-family: Century Gothic, sans-serif;
   font-size: 16px;
   padding-bottom: 0px;
   padding-left: 25px;
