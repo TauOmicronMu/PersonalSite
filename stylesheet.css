@@ -1,0 +1,121 @@
+html, body {
+  height: 100%;
+  
+}
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+}
+
+.menu {
+  background: #202024 url('https://foomandoonian.files.wordpress.com/2011/02/black-wallpaper-png-scaled-1000.jpg') repeat left top;
+  left: -285px;  //start off screen
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+.jumbotron { 
+  height: 100%;
+  width: 100%;
+  position: block;
+  background-image: url(http://i.imgur.com/wvbAhwy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-weight: bold;
+  position: inline;
+  color: #fff;
+  font-size: 50px;
+  padding-left: 40%;
+  font-family: Century Gothic, sans-serif;
+}
+
+.tagline {
+  font-weight: bold;
+  position: block;
+  color: #fff;
+  font-size: 24px;
+  padding-left: 47%;
+  font-family: Century Gothic, sans-serif;
+}
+
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: Century Gothic, sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: Century Gothic, sans-serif;
+  font-size: 16px;
+  padding-bottom: 0px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 30px;
+  position: inline;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+
+.buttons {
+  //background-color: rgb(102,154,205);
+  margin-left: 40%;
+  margin-right: 40%;
+  border-radius: 10px;
+}
+
+.buttons ul {
+   list-style-type: none
+}
+
+.buttons ul li{
+  display: inline-block;
+}
+
+.buttons ul li button {
+  background-size: cover;
+  border-radius: 4px;
+}
+
+.buttons ul li button img {
+  margin-top: -7px;
+  margin-left: -13px;
+  margin-right: -14px;
+  margin-bottom: -11px;
+}
