@@ -19,7 +19,7 @@ body {
 
 .menu {
   background: #202024 url('https://foomandoonian.files.wordpress.com/2011/02/black-wallpaper-png-scaled-1000.jpg') repeat left top;
-  left: -285px;  //start off screen
+  left: -285px;
   height: 100%;
   position: fixed;
   width: 285px;
@@ -30,7 +30,7 @@ body {
   width: 100%;
   overflow-y: auto;
   position: block;
-  background-image: url(http://i.imgur.com/wvbAhwy.jpg);
+  background-image: url('http://i.imgur.com/wvbAhwy.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -120,6 +120,7 @@ body {
 .projecttop { 
   height: 150px;
   padding: 15px;
+  position: relative;
 }
 
 .projecttitle {
@@ -132,14 +133,12 @@ body {
 }
 
 .projectimage {
-  float: right;
-  position: inline;
-  clear: both;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .projectimage img {
   max-width: 250px;
   max-height: 150px;
 }
-
-
