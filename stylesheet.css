@@ -100,7 +100,7 @@ body {
 }
 
 .buttons a:hover{
-  position:relative;
+  position: relative;
   left: 2px;
   top: 2px;
 }
@@ -113,6 +113,33 @@ body {
   background-color: #fff;
   margin: 10px 5% 0 5%;
   min-width: 350px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.projecttop { 
+  height: 150px;
+  padding: 15px;
+}
+
+.projecttitle {
+  font-size: 36px;
+  text-align: center;
+}
+
+.projectlink {
+  text-align: center;
+}
+
+.projectimage {
+  float: right;
+  position: inline;
+  clear: both;
+}
+
+.projectimage img {
+  max-width: 250px;
+  max-height: 150px;
 }
 
 
