@@ -165,3 +165,9 @@ body {
   left: 0;
   top: 0; 
 }
+
+.projectbottomtogglebutton img:hover {
+  position: relative;
+  left: 2px;
+  top: 2px; 
+}
