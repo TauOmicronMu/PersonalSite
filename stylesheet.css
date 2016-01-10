@@ -134,5 +134,8 @@ body {
 
 .project {
   background-color: #fff;
+  margin: 10px 5% 0 5%;
+  min-width: 350px;
 }
+
 
