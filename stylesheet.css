@@ -29,22 +29,16 @@ body {
 }
 
 .title {
-  //font-weight: bold;
   position: inline;
   color: #fff;
   font-size: 64px;
-  //padding-left: 40%;
-  //font-family: Century Gothic, sans-serif;
   text-align: center;
 }
 
 .tagline {
-  //font-weight: bold;
   position: block;
   color: #fff;
   font-size: 24px;
-  //padding-left: 47%;
-  //font-family: Century Gothic, sans-serif;
   text-align: center;
 }
 
@@ -57,12 +51,10 @@ body {
 
 .menu li {
   border-bottom: 1px solid #636366;
-  //font-family: Century Gothic, sans-serif;
   line-height: 45px;
   padding-bottom: 3px;
   padding-left: 20px;
   padding-top: 3px;
-  //font-weight: bold;
 }
 
 .menu a {
@@ -82,7 +74,6 @@ body {
 .icon-menu {
   color: #fff;
   cursor: pointer;
-  //font-family: Century Gothic, sans-serif;
   font-size: 16px;
   padding-bottom: 0px;
   padding-left: 25px;
@@ -98,34 +89,13 @@ body {
 }
 
 .buttons {
-  //background-color: rgb(102,154,205);
-  //margin-left: 42%;
-  //margin-right: 42%;
-  border-radius: 10px;
   text-align: center;
 }
 
-.buttons ul {
-   list-style-type: none;
-   padding: 0;
-   margin: 0;
-}
-
-.buttons ul li{
-  display: inline-block;
-}
-
-.buttons ul li button {
-  background-size: cover;
-  border-radius: 4px;
-  margin: 5px;
-}
-
-.buttons ul li button img {
-  margin-top: -8px;
-  margin-left: -14px;
-  margin-right: -15px;
-  margin-bottom: -12px;
+.buttons a:hover{
+	position:relative;
+	left: 2px;
+	top: 2px;
 }
 
 .homecontent {
