@@ -33,8 +33,9 @@ body {
   position: inline;
   color: #fff;
   font-size: 64px;
-  padding-left: 40%;
+  //padding-left: 40%;
   //font-family: Century Gothic, sans-serif;
+  text-align: center;
 }
 
 .tagline {
@@ -42,8 +43,9 @@ body {
   position: block;
   color: #fff;
   font-size: 24px;
-  padding-left: 47%;
+  //padding-left: 47%;
   //font-family: Century Gothic, sans-serif;
+  text-align: center;
 }
 
 .menu ul {
@@ -97,13 +99,16 @@ body {
 
 .buttons {
   //background-color: rgb(102,154,205);
-  margin-left: 42%;
-  margin-right: 42%;
+  //margin-left: 42%;
+  //margin-right: 42%;
   border-radius: 10px;
+  text-align: center;
 }
 
 .buttons ul {
-   list-style-type: none
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
 }
 
 .buttons ul li{
@@ -121,4 +126,8 @@ body {
   margin-left: -14px;
   margin-right: -15px;
   margin-bottom: -12px;
+}
+
+.homecontent {
+  padding-top: 15%;
 }
