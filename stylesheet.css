@@ -163,11 +163,18 @@ body {
   cursor: pointer;
   position: absolute;
   left: 0;
-  top: 0; 
+  top: 0;
+  
+  -webkit-transition: 200ms linear all;
+  -moz-transition: 200ms linear all;
+  -o-transition: 200ms linear all;
+  transition: 200ms linear all;
 }
 
-.projectbottomtogglebutton img:hover {
-  position: relative;
-  left: 2px;
-  top: 2px; 
+.projectbottomtogglebutton.rotate{
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }

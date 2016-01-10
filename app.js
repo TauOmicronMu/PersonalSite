@@ -31,7 +31,9 @@ $(document).ready(function() {
 			menuOpen = true;
 		}
 	});
-        $('.projectbottomtogglebutton').click(function() {
-	        $(this).parents('.project').find('.projectbottom').toggle(200);
-        });
+	
+	$('.projectbottomtogglebutton').click(function() {
+		var projectBottom = $(this).parents('.project').find('.projectbottom').toggle(200);
+		$(this).toggleClass("rotate");
+	});
 });
