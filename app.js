@@ -31,4 +31,7 @@ $(document).ready(function() {
 			menuOpen = true;
 		}
 	});
+        $('.projectbottomtogglebutton').click(function() {
+	        $(this).parents('.project').find('.projectbottom').toggle(200);
+        });
 });

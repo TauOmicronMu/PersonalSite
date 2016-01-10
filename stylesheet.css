@@ -110,17 +110,32 @@ body {
 }
 
 .project {
-  background-color: #fff;
-  margin: 10px 5% 0 5%;
+  //background-color: #000;
+  //background-color: rgb(102,154,205);
+  background-image: url(https://wallpaperscraft.com/image/blue_backgrounds_solid_light_65833_2560x1440.jpg);
+  margin: 20px 5% 20px 5%;
   min-width: 350px;
   padding: 5px;
   border-radius: 5px;
+  color: #fff;
 }
 
 .projecttop { 
   height: 150px;
   padding: 15px;
   position: relative;
+}
+
+.projectmiddle {
+  padding: 5px;
+}
+
+.projectbottom {
+  padding: 5px;
+  display: none;
+}
+
+.projectbottom iframe {
 }
 
 .projecttitle {
@@ -141,4 +156,12 @@ body {
 .projectimage img {
   max-width: 250px;
   max-height: 150px;
+  border-radius: 10px;
+}
+
+.projectbottomtogglebutton {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0; 
 }
