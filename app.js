@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var menuOpen = true;
+	var menuOpen = false;
 	
 	function openMenu(){
 		$('.menu').animate({
